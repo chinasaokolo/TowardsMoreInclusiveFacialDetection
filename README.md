@@ -15,14 +15,17 @@ increased the efficiency of the computational pipeline created to analyze the MU
 The lack of consistency in pose, lighting, and image size within the PPB dataset may have contributed to the disparity between the results of the “Not Found” folders from both datasets. Although the sample size is small, a clear trend is noticed in images with subjects of darker skin-tone colors less likely to be successfully recognized.
 
 ### Forehead color extraction
+To anaylze which skintones were more likely to not be detected in face tracking libraries, the skintones from each image in the dataset were extracted. At first, the average color from the photo was chosen, but found to be inaccurate. A method was derived to extract skintone color from the centermost part of a subject's forehead since it was more likely to be consistent with a subject's true skintone color.
 
 ![color_extraction](color_extraction.png)
 
 ### Color analysis
+Once the skintone colors were extracted from images within the dataset, they were sorted into six categories based on the six Fitzpatrick skin types through a uniform classification.
 
 ![color_analysis](skintone_classification.png)
 
 ### Face detection automation 
+
 
 ![face_detection_automation](automation_results.png)
 
@@ -32,4 +35,7 @@ The datasets used in this work are [MUCT](http://www.milbo.org/muct/) and Pilot 
 
 ## Project Presentation
 The project presentation can be found [here](https://docs.google.com/presentation/d/e/2PACX-1vQYkkshsEJSTDI2gJ0n2nbzFXtnoE_PbInYXVWYsq4oXIYgbrI8vxgUHqg53ANup9-KveUmWr1w8g5t/pub?start=false&loop=false&delayms=3000&slide=id.p).
+
+## Citation
+
 
