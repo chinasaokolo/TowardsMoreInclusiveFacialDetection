@@ -12,6 +12,7 @@ The goal of determining why clmtrackr fails to track certain faces started with 
 increased the efficiency of the computational pipeline created to analyze the MUCT and PPB datasets and helped streamline the process of extracting and analyzing skin tone colors from the images in each respective dataset.
 
 ## Results
+The lack of consistency in pose, lighting, and image size within the PPB dataset may have contributed to the disparity between the results of the “Not Found” folders from both datasets. Although the sample size is small, a clear trend is noticed in images with subjects of darker skin-tone colors less likely to be successfully recognized.
 
 ### Forehead color extraction
 
