@@ -7,6 +7,19 @@ Currently, WebGazer fails to accurately track people with beards, people wearing
 
 Learning extensively how the external face detection tracker module clmtrackr, included by default in WebGazer, works is the best way to improve how facial features are tracked while the script runs and help determine external factors that inhibit WebGazer from achieving its full potential.
 
+## Methodology
+The goal of determining why clmtrackr fails to track certain faces started with analyzing the dataset used to train it. The color analysis described in the methods of this paper began with the MUCT dataset. Several Python scripts were coded for different tasks in this analysis. The first Python script was created to crop the images and extract the foreheads in each photo in the MUCT and PPB datasets while another script was created to sort the colors obtained from the images. Once each script was tested and correctness was guaranteed, both of these scripts were combined into one. From the combined script, a copy was created for the MUCT dataset and another copy the PPB dataset. Since the datasets were contained in different directories on the author’s computer, the separate scripts helped to keep the enormous amounts of images organized. This
+increased the efficiency of the computational pipeline created to analyze the MUCT and PPB datasets and helped streamline the process of extracting and analyzing skin tone colors from the images in each respective dataset.
+
+## Results
+
+### Forehead color extraction
+
+### Color analysis
+
+### Face detection automation 
+
+
 ## Datasets
 The datasets used in this work are [MUCT](http://www.milbo.org/muct/) and Pilot Parliaments Benchmark (PPB). You can request access to the Pilot Parliaments Benchmark Dataset (for non-commercial use only) from the [Algorithmic Justice League](https://www.ajlunited.org/connect/request-dataset-for-research).
 
