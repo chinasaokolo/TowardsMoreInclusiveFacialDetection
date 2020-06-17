@@ -43,6 +43,6 @@ Okolo, C. T. 2018. *Towards More Inclusive Facial Detection*, Senior Project, Po
 ```
 @misc{okolo_2018, 
           title = {Towards More Inclusive Facial Detection},
-          author={Okolo, Chinasa T},
+          author={Okolo, Chinasa T.},
           year={2018}}
 ```
