@@ -16,9 +16,15 @@ The lack of consistency in pose, lighting, and image size within the PPB dataset
 
 ### Forehead color extraction
 
+![color_extraction](color_extraction.png)
+
 ### Color analysis
 
+![color_analysis](skintone_classification.png)
+
 ### Face detection automation 
+
+![face_detection_automation](automation_results.png)
 
 
 ## Datasets
