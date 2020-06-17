@@ -38,7 +38,7 @@ The project presentation can be found [here](https://docs.google.com/presentatio
 
 ## Citation
 
-Okolo, C. T. 2018. ‘Towards More Inclusive Facial Detection’, Senior Project, Pomona College, Claremont, California, USA.
+Okolo, C. T. 2018. *Towards More Inclusive Facial Detection*, Senior Project, Pomona College, Claremont, California, USA.
 
 ```
 @misc{okolo_2018, 
