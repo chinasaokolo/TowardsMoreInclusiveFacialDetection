@@ -25,7 +25,7 @@ Once the skintone colors were extracted from images within the dataset, they wer
 ![color_analysis](skintone_classification.png)
 
 ### Face detection automation 
-
+Automation was run on 500 images from each dataset to determine how well faces from the MUCT and PPB datasets could be detected.
 
 ![face_detection_automation](automation_results.png)
 
@@ -38,4 +38,11 @@ The project presentation can be found [here](https://docs.google.com/presentatio
 
 ## Citation
 
+Okolo, C. T. 2018. ‘Towards More Inclusive Facial Detection’, Senior Project, Pomona College, Claremont, California, USA.
 
+```
+@misc{okolo_2018, 
+          title = {Towards More Inclusive Facial Detection},
+          author={Okolo, Chinasa T},
+          year={2018}}
+```
