@@ -1,5 +1,7 @@
 # Towards More Inclusive Facial Detection
 
+Collaborators: Alexandra Papoutsaki (Pomona College), Alexander Clemens (Claremont McKenna College), Pomona College HCI Lab
+
 ## Abstract
 WebGazer uses computer webcams to track eye-gaze locations of users in real time. This eye-tracking library is solely implemented in JavaScript and can be easily integrated within a web browser. WebGazer uses a model implemented by another JavaScript library, clmtrackr to fit facial models on faces tracked through video. This library allows WebGazer to train models that map eye features and their relative position on the screen.
 
